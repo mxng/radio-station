@@ -1,0 +1,85 @@
+.wrapper {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+#header,
+.radio-details {
+  box-shadow: 0px 10px 150px rgba(0,0,0,0.4);
+}
+
+#header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px 15px 0 0;
+  padding: 0 20px;
+  background-color: #ECAD60;
+}
+
+i {
+  font-size: 26px;
+}
+
+h1 {
+  margin: 25px auto;
+  font-size: 20px;
+}
+
+.radio-details,
+.currently-playing {
+  color: #A1A9BB;
+}
+
+.radio-details {
+  background-color: #2F2F39;
+  padding: 10px 20px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio:not(:last-child) {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.1);
+}
+
+.currently-playing {
+  background-color: #22222A;
+  border-top: 1px solid rgba(221, 221, 221, 0.2);
+  border-radius: 0 0 15px 15px;
+  height: 70px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.currently-playing p {
+  padding: 0;
+}
+
+.text-sm {
+  font-size: 10px;
+}
+
+.text-gold {
+  color: #ECAD60;
+}
+
+img {
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid #A1A9BB;
+}
+
+.more-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.d-none {
+  display: none;
+}
