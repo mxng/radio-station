@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
   <script src="https://kit.fontawesome.com/7be238e6ff.js" crossorigin="anonymous"></script>
   <title>Frontend Challenge</title>
 </head>
+
 <body>
   <div class="wrapper">
     <div id="header">
@@ -24,20 +26,21 @@
     </div>
   </div>
 
-    <script>
-      const showDetails = (event) => {
-        const playingDisplay = event.currentTarget.previousElementSibling;
-        playingDisplay.classList.toggle('d-none');
+  <script>
+    const showDetails = (event) => {
+      const playingDisplay = event.currentTarget.previousElementSibling;
+      playingDisplay.classList.toggle('d-none');
 
-        const currentlyPlayingDetails = document.querySelector('.currently-playing-details');
-        currentlyPlayingDetails.classList.toggle('d-none');
+      const currentlyPlayingDetails = document.querySelector('.currently-playing-details');
+      currentlyPlayingDetails.classList.toggle('d-none');
 
-        const currentlyPlayingName = event.currentTarget.querySelector('.radio-name').innerText;
-        const playingRadioName = currentlyPlayingDetails.querySelector('.playing-radio-name');
-        playingRadioName.innerText = currentlyPlayingName;
-        };
-    </script>
+      const currentlyPlayingName = event.currentTarget.querySelector('.radio-name').innerText;
+      const playingRadioName = currentlyPlayingDetails.querySelector('.playing-radio-name');
+      playingRadioName.innerText = currentlyPlayingName;
+    };
+  </script>
 
-    <script src="index.js"></script>
-  </body>
+  <script src="index.js"></script>
+</body>
+
 </html>
