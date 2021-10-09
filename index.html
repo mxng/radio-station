@@ -26,20 +26,6 @@
     </div>
   </div>
 
-  <script>
-    const showDetails = (event) => {
-      const playingDisplay = event.currentTarget.previousElementSibling;
-      playingDisplay.classList.toggle('d-none');
-
-      const currentlyPlayingDetails = document.querySelector('.currently-playing-details');
-      currentlyPlayingDetails.classList.toggle('d-none');
-
-      const currentlyPlayingName = event.currentTarget.querySelector('.radio-name').innerText;
-      const playingRadioName = currentlyPlayingDetails.querySelector('.playing-radio-name');
-      playingRadioName.innerText = currentlyPlayingName;
-    };
-  </script>
-
   <script src="index.js"></script>
 </body>
 
