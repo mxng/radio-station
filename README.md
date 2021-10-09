@@ -1,4 +1,6 @@
 # Frontend mini challenge
 Radio station component that shows playing details on click action, a mini challenge.
 
-![example](https://i.imgur.com/x2n1xdx.gif)
+You can see the live version on ![codesandbox](https://codesandbox.io/s/mini-frontend-challenge-icyug?file=/src/index.js)
+
+![example](https://i.imgur.com/Lvj5xSg.gif)
